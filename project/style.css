@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+form label{
+    font-size: 30px;
+}
+#guess{
+    height: 50px;
+    padding: 0px 10px;
+    font-size: 19px;
+}
+#button{
+    height: 35px;
+    width: 100px;
+    font-size: 20px;
+    background-color: orangered;
+    border: none;
+    color: white;
+}
